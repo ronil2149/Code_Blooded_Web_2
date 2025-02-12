@@ -11,18 +11,7 @@ const HomePage = () => {
         secure, affordable, and simple way to get the gadgets you need for your short-term needs.
       </p>
       <div>
-        <button
-          className="bg-blue-500 text-white px-6 py-2 rounded-lg text-lg mx-2"
-          onClick={() => window.location.href = '/signup'}
-        >
-          Sign Up
-        </button>
-        <button
-          className="bg-transparent border-2 border-blue-500 text-blue-500 px-6 py-2 rounded-lg text-lg mx-2"
-          onClick={() => window.location.href = '/login'}
-        >
-          Log In
-        </button>
+        
       </div>
     </div>
   );
